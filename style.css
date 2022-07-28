@@ -228,3 +228,48 @@ section.container-developer{
 	font-size: .8rem;
 	color: #835FA7;
 }
+
+section.contato{
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	background-color: #482B62;
+}
+
+.contato .form{
+	width: 50vw;
+}
+
+.contato .form form{
+	width: 40vw;
+	display: flex;
+	flex-direction: column;
+	padding: 50px 0 50px 20px;
+}
+
+form input[type=text]{
+	padding: 10px 5px;
+	outline: none;
+	margin-bottom: 20px;
+
+}
+
+form input[type=email]{
+	padding: 10px 5px;
+	outline: none;
+	margin-bottom: 20px;
+
+}
+form textarea{
+	padding: 10px 5px;
+	outline: none;
+	resize: none;
+	margin-bottom: 20px;
+
+}
+
+form button{
+	width: 20vw;
+	padding: 10px 15px;
+}
