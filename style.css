@@ -177,17 +177,26 @@ section.container-developer{
 	height: 300px;
 	
 	display: flex;
+	justify-content: center;
+	align-items: center;
 	flex-direction: row;
 	color: #000000;
 }
 
 .container-developer .item-time{
-	padding: 50px;
+	padding: 140px 0 90px 0;
 	width: 50vw;
-	background-color: #482b62b9;
+	background-color: #835FA7;
+}
+
+.container-developer .item-time h3, p{
+	margin-left: 100px ;
+	padding: 10px;
+	line-height: 2rem;
+	color: white;
 }
 
 .container-developer .item-dev{
-	padding: 50px;
+	padding: 140px 0 90px 0;
 	width: 50vw;
 }
