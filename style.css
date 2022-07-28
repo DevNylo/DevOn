@@ -94,6 +94,7 @@ section{
 }
 
 main div{
+	position: relative;
 	margin: 0 auto;
 	width: 30vw;
 	height: 300px;
@@ -113,7 +114,7 @@ main div p{
 main div img{
 	width: 500px;
 	position: absolute;
-	top: 651px;
+	top: -90px;
 }
 
 main div ul{
