@@ -101,6 +101,7 @@ main div{
 }
 
 main div h2{
+	text-shadow: 1px 10px 10px #000000;
 	font-size: 1.5rem;
 	font-weight: 500;
 	padding: 10px 0;
@@ -108,6 +109,7 @@ main div h2{
 }
 
 main div p{
+	text-shadow: 1px 10px 10px #000000;
 	padding: 10px 0;
 }
 
@@ -161,6 +163,7 @@ article h2{
 }
 
 article p{
+	text-shadow: 1px 10px 10px #000000;
 	margin: 20px 0;
 	text-align: center;
 	color: #000000;
@@ -191,6 +194,7 @@ section.container-developer{
 }
 
 .container-developer .item-time > h3{
+	text-shadow: 1px 10px 10px #000000;
 	font-weight: 500;
 	margin-bottom: 25px;
 	color: white;
@@ -198,6 +202,7 @@ section.container-developer{
 }
 
 .container-developer .item-time > p{
+	text-shadow: 1px 10px 10px #000000;
 	line-height: 2rem;
 	color: #ffffff;
 }
@@ -210,6 +215,7 @@ section.container-developer{
 }
 
 .container-developer .item-dev p{
+	text-shadow: 1px 10px 10px #000000;
 	padding: 0 0 0 20px;
 }
 
@@ -225,6 +231,8 @@ section.container-developer{
 }
 
 .container-developer .item-dev div span{
+	text-shadow: 1px 10px 10px #000000;
+	font-weight: bold;
 	font-size: .8rem;
 	color: #835FA7;
 }
@@ -242,7 +250,18 @@ section.contato{
 }
 
 .contato .form h2{
-	width: ;
+	font-size: 1.5rem;
+	margin: 20px 0 10px 20px;
+	text-shadow: 1px 10px 10px #000000;
+	color: #ffffff;
+	width: 40vw;
+}
+
+.contato .form p{
+	margin: 0 0 10px 20px;
+	text-shadow: 1px 10px 10px #000000;
+	color: #ffffff;
+	width: 40vw;
 }
 
 .contato .form form{
@@ -274,7 +293,7 @@ form textarea{
 }
 
 form button{
-	width: 20vw;
+	width: 15vw;
 	padding: 10px 15px;
 	background-color: #FF703D;
 	border-radius: 50px;
@@ -289,15 +308,29 @@ div.maps{
 }
 
 div.maps iframe{
-	margin-top: 20px;
+	margin: 20px 0 30px 50px;
 	width: 70%;
 	border-radius: 10px;
 }
 
 div.maps h2{
+	margin-left: 50px;
 	font-size: 1.5rem;
 	text-shadow: 1px 10px 10px #000000;
 	color: #ffffff;
 	margin-top: 30px;
 }
 
+footer{
+	width: 100%;
+	background-color: #2B2F3B;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	flex-wrap: wrap;
+}
+
+footer p{
+	padding: 30px;
+	color: white;
+}
