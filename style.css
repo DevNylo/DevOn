@@ -390,5 +390,32 @@ footer p{
 		section.container-developer .item-dev{
 			width: 100%;
 		}
-		
+		section.contato{
+			display: block;
+			width: 100%;
+			margin: 0 auto;
+		}
+
+		.contato .form{
+			width: 90vw;
+			margin: 0 auto;
+		}
+		.contato .form h2{
+			padding: 50px 0 10px 0;
+			text-align: center;
+			width: 90%;
+		}
+		.contato .form p{
+			text-align: center;
+			width: 90%;
+		}
+
+		.contato .form form{
+			width: 90vw;
+			padding: 50px 0 0 0;
+		}
+		.contato .form button{
+			width: 90vw;
+			margin: 0 0 100px 0;
+		}
   }
