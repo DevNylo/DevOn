@@ -344,7 +344,15 @@ footer p{
 
 @media only screen and (max-width: 820px) {
 
-		
+		header nav{
+			display: flex;
+			flex-direction: column;
+			text-align: center;
+		}
+		header nav ul{
+			
+		}
+
 
 		header div{
 			width: 90%;
@@ -358,9 +366,6 @@ footer p{
 			width: 90vw;
 		}
 
-		header nav{
-			justify-content: space-around;
-		}
 		div.itens{
 			width: 100vw;
 			margin: 0 auto;
