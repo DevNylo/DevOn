@@ -350,13 +350,18 @@ footer p{
 			text-align: center;
 		}
 		header nav ul{
-			
+			gap: 50px;
 		}
+		header nav ul li{
+			font-weight: bold;
+		}
+
 
 
 		header div{
 			width: 90%;
 			text-align: center;
+			margin: 130px auto;
 		}
 
 		header div > h1{
