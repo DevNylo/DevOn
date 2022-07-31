@@ -290,6 +290,7 @@ form input[type=email]{
 }
 form textarea{
 	padding: 10px 5px;
+	height: 250px;
 	outline: none;
 	resize: none;
 	margin-bottom: 20px;
@@ -322,7 +323,7 @@ div.maps h2{
 	font-size: 1.5rem;
 	text-shadow: 1px 10px 10px #000000;
 	color: #ffffff;
-	margin-top: 30px;
+
 }
 
 footer{
