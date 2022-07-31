@@ -418,4 +418,21 @@ footer p{
 			width: 90vw;
 			margin: 0 0 100px 0;
 		}
+
+		.contato .maps{
+			text-align: center;
+			width: 100%;
+			margin: 0 auto;
+		}
+		.contato .maps h2{
+			margin: 0;
+			padding-bottom: 50px;
+
+		}
+		.contato .maps iframe{
+			margin: 0 auto;
+			width:80%;
+			padding-bottom: 50px;
+
+		}
   }
