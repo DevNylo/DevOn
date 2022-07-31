@@ -52,7 +52,7 @@ header nav h1 a{
 
 header nav h1 a > span{
 	font-size: 1.5rem;
-	color: blueviolet;
+	color: #8a2be2;
 	text-shadow: 1px 10px 10px black;
 }
 
@@ -272,4 +272,22 @@ form textarea{
 form button{
 	width: 20vw;
 	padding: 10px 15px;
+	background-color: #FF703D;
+	border-radius: 50px;
+	border: none;
+	color: #ffffff;
+	cursor: pointer;
+}
+
+div.maps{
+	width: 50vw;
+
+}
+
+div.maps iframe{
+	align-self: center;
+	margin-left: 80px;
+	margin-top: 20px;
+	width: 70%;
+	border-radius: 10px;
 }
