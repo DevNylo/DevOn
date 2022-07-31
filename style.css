@@ -74,7 +74,7 @@ header div h1{
 
 header div p{
 	font-size: 1rem;
-	text-shadow: 1px 10px 10px black;
+	text-shadow: 1px 10px 10px #000000;
 }
 
 main{
@@ -241,6 +241,10 @@ section.contato{
 	width: 50vw;
 }
 
+.contato .form h2{
+	width: ;
+}
+
 .contato .form form{
 	width: 40vw;
 	display: flex;
@@ -285,9 +289,15 @@ div.maps{
 }
 
 div.maps iframe{
-	align-self: center;
-	margin-left: 80px;
 	margin-top: 20px;
 	width: 70%;
 	border-radius: 10px;
 }
+
+div.maps h2{
+	font-size: 1.5rem;
+	text-shadow: 1px 10px 10px #000000;
+	color: #ffffff;
+	margin-top: 30px;
+}
+
