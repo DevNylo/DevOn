@@ -124,6 +124,11 @@ main div ul{
 	padding: 0 0 20px 0;
 }
 
+main div ul li{
+	text-shadow: 1px 10px 10px #000000;
+
+}
+
 main div button{
 	padding: 10px 30px;
 	border-radius: 50px;
@@ -163,7 +168,6 @@ article h2{
 }
 
 article p{
-	text-shadow: 1px 10px 10px #000000;
 	margin: 20px 0;
 	text-align: center;
 	color: #000000;
